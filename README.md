@@ -8,5 +8,5 @@ sudo bash install.sh
 ```
 
 ```shell
-curl -L https://github.com/sbonnery/Test/launch.sh | bash
+curl -L https://raw.githubusercontent.com/sbonnery/Test/master/launch.sh | bash
 ```
