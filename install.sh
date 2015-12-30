@@ -2,8 +2,9 @@
 #
 # Installation
 # 
-apt-get update
-apt-get upgrade
+
+#apt-get update
+#apt-get upgrade
 apt-get install hostapd udhcpd privoxy
 
 cp etc/default/hostapd /etc/default/hostapd
@@ -14,3 +15,4 @@ cp etc/network/interfaces /etc/network/interfaces
 cp etc/privoxy/config /etc/privoxy/config
 cp etc/sysctl.conf /etc/sysctl.conf
 cp etc/udhcpd.conf /etc/udhcpd.conf
+cp etc/iptables.ipv4.nat /etc/iptables.ipv4.nat
