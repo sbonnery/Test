@@ -2,8 +2,9 @@
 #
 # Installation
 # 
-apt-get update
-apt-get upgrade
+
+#apt-get update
+#apt-get upgrade
 apt-get install hostapd udhcpd privoxy
 
 cp etc/default/hostapd /etc/default/hostapd
