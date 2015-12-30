@@ -17,7 +17,9 @@ cp etc/sysctl.conf /etc/sysctl.conf
 cp etc/udhcpd.conf /etc/udhcpd.conf
 cp etc/iptables.ipv4.nat /etc/iptables.ipv4.nat
 
-service hostapd start
-service udhcpd start
 update-rc.d hostapd enable
 update-rc.d udhcpd enable
+
+service privoxy restart
+service hostapd restart
+service udhcpd restart
