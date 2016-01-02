@@ -2,6 +2,7 @@
 #
 # Installation
 # 
+set -x #echo on
 
 #apt-get update
 #apt-get upgrade
